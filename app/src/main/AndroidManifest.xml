@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.sopan.android.advanced_textview" >
+
+  <application
+      android:allowBackup="true"
+      android:icon="@drawable/ic_launcher"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme" >
+    <activity
+        android:name="com.sopan.android.advanced_textview.MainActivity"
+        android:label="@string/app_name" >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+        android:name="com.sopan.android.advanced_textview.AnimatedCompoundDrawableActivity"
+        android:label="@string/animated_compound_drawable"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.ShadowTextActivity"
+        android:label="@string/shadow_text"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.CustomFontActivity"
+        android:label="@string/custom_font"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.NonBreakingSpaceActivity"
+        android:label="@string/non_breaking_space"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.GradientTextActivity"
+        android:label="@string/gradient_text"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.PatternedTextActivity"
+        android:label="@string/patterned_text"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.FromHtmlActivity"
+        android:label="@string/from_html"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.FractionActivity"
+        android:label="@string/fraction"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.StyledStringActivity"
+        android:label="@string/styled_string"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.AlignmentSpanActivity"
+        android:label="@string/alignment_span"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+      android:name="com.sopan.android.advanced_textview.RainbowSpanActivity"
+      android:label="@string/rainbow_span"
+      android:parentActivityName="com.sopan.android.advanced_textview.MainActivity"
+      android:windowSoftInputMode="adjustResize" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.AnimatedRainbowSpanActivity"
+        android:label="@string/animated_rainbow_span"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.ClickableSpanActivity"
+        android:label="@string/clickable_span"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+      android:name="com.sopan.android.advanced_textview.LinedPaperActivity"
+      android:label="@string/lined_paper"
+      android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.EmojiActivity"
+        android:label="@string/emoji"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+    <activity
+        android:name="com.sopan.android.advanced_textview.AboutActivity"
+        android:label="@string/about"
+        android:parentActivityName="com.sopan.android.advanced_textview.MainActivity" />
+  </application>
+
+</manifest>
