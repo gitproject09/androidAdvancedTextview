@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion 31
+  compileSdkVersion 33
     buildToolsVersion "30.0.3"
 
   defaultConfig {
     applicationId "com.sopan.android.advanced_textview"
     minSdkVersion 16
-    targetSdkVersion 31
+    targetSdkVersion 33
     versionCode 3
     versionName '1.2.0'
   }
@@ -20,18 +20,18 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 
 dependencies {
   implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 	
   implementation 'com.nineoldandroids:library:2.4.0'
 }
